@@ -55,8 +55,7 @@ All registered cron hooks execute immediately under the web server's process.
 
 ## Evidence
 
-![Proof of concept](assets/poc.png)
-<!-- Add video or additional screenshots to assets/ -->
+![Proof of concept](assets/vuln-4-poc.png)
 
 ## Affected Component
 

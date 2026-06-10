@@ -58,8 +58,7 @@ for sec in range(server_time - 2, server_time + 3):
 
 ## Evidence
 
-![Static analysis showing uniqid() call](assets/poc.png)
-<!-- Add video or additional screenshots to assets/ -->
+_No recording available._
 
 ## Affected Component
 

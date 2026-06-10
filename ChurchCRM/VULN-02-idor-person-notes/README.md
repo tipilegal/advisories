@@ -57,14 +57,13 @@ HTTP 200 is returned with note content for a person the authenticated user has n
 
 ## Evidence
 
-![Proof of concept](assets/poc.png)
-<!-- Add video or additional screenshots to assets/ -->
+<video src="assets/vuln-2-poc.mp4" controls width="100%"></video>
 
 ## Affected Component
 
 | Field | Value |
 |-------|-------|
-| Endpoint | `GET /api/person/{id}/notes`, `POST /api/person/{id}/notes` |
+| Endpoint | `GET /api/person/{id}/notes` (read), `POST /api/person/{id}/note` (write) |
 | File | `api/routes/people/notes.php` |
 | Middleware | `NotesRoleAuthMiddleware` (role check only, no entity check) |
 | Auth required | Yes — Notes role |

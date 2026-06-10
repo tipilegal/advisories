@@ -44,8 +44,7 @@ Response contains all pledge and payment records for all congregants. In testing
 
 ## Evidence
 
-![Full payment dataset returned](assets/poc.png)
-<!-- Add video or additional screenshots to assets/ -->
+<video src="assets/vuln-7-poc.mp4" controls width="100%"></video>
 
 ## Affected Component
 

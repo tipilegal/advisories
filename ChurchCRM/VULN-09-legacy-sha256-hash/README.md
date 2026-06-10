@@ -54,8 +54,7 @@ For comparison, a bcrypt hash at cost 12 would take months to crack the same pas
 
 ## Evidence
 
-![Static analysis showing sha256 hash scheme](assets/poc.png)
-<!-- Add video or additional screenshots to assets/ -->
+_No recording available._
 
 ## Affected Component
 

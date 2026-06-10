@@ -68,8 +68,7 @@ The response for group 1 contained 50+ members with full PII, including minors.
 
 ## Evidence
 
-![Full PII returned for arbitrary group](assets/poc.png)
-<!-- Add video or additional screenshots to assets/ -->
+<video src="assets/vuln-6-poc.mp4" controls width="100%"></video>
 
 ## Affected Component
 
