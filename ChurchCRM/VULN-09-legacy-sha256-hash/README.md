@@ -52,10 +52,6 @@ hashcat -m 1410 -a 0 \
 
 For comparison, a bcrypt hash at cost 12 would take months to crack the same password at ~2K H/s.
 
-## Evidence
-
-_No recording available._
-
 ## Affected Component
 
 | Field | Value |

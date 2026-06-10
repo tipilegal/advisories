@@ -52,7 +52,7 @@ The note is created and readable under the target family despite the requester h
 
 ## Evidence
 
-<video src="assets/vuln-3-poc.mp4" controls width="100%"></video>
+[Watch PoC video](assets/vuln-3-poc.mp4)
 
 ## Affected Component
 

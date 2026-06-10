@@ -57,7 +57,7 @@ HTTP 200 is returned with note content for a person the authenticated user has n
 
 ## Evidence
 
-<video src="assets/vuln-2-poc.mp4" controls width="100%"></video>
+[Watch PoC video](assets/vuln-2-poc.mp4)
 
 ## Affected Component
 

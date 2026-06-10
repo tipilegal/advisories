@@ -56,10 +56,6 @@ for sec in range(server_time - 2, server_time + 3):
 
 ~5 million requests covers the full window. Against an unprotected endpoint, this completes in minutes.
 
-## Evidence
-
-_No recording available._
-
 ## Affected Component
 
 | Field | Value |

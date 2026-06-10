@@ -68,7 +68,7 @@ The response for group 1 contained 50+ members with full PII, including minors.
 
 ## Evidence
 
-<video src="assets/vuln-6-poc.mp4" controls width="100%"></video>
+[Watch PoC video](assets/vuln-6-poc.mp4)
 
 ## Affected Component
 
