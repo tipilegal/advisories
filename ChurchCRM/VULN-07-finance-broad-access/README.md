@@ -44,7 +44,7 @@ Response contains all pledge and payment records for all congregants. In testing
 
 ## Evidence
 
-[Watch PoC video](assets/vuln-7-poc.mp4)
+![Proof of concept](assets/vuln-7-poc.gif)
 
 ## Affected Component
 

@@ -61,7 +61,7 @@ The `User.Password` field contains the live bcrypt hash of the authenticated use
 
 ## Evidence
 
-[Watch PoC video](assets/vuln-1-poc.mp4)
+![Proof of concept](assets/vuln-1-poc.gif)
 
 ## Affected Component
 
