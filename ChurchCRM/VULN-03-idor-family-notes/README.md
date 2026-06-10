@@ -34,7 +34,7 @@ curl -s -c cookies.txt -X POST "http://TARGET/churchcrm/session/begin" \
   -d "User=lowpriv&Password=lowpass123"
 
 # Step 2 — create a note on an arbitrary family (family ID 1)
-curl -s -b cookies.txt -X POST "http://TARGET/churchcrm/api/family/1/notes" \
+curl -s -b cookies.txt -X POST "http://TARGET/churchcrm/api/family/1/note" \
   -H "Content-Type: application/json" \
   -d '{"text":"unauthorized note","private":false}'
 
