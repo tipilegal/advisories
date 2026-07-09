@@ -5,7 +5,7 @@
 **CVE:** Pending  
 **CWE:** CWE-269 — Improper Privilege Management  
 **Severity:** Medium  
-**CVSS 4.0:** 5.9 — `CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:L/VA:L/SC:L/SI:L/SA:N`  
+**CVSS 4.0:** 5.3 — `CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:L/VA:L/SC:L/SI:L/SA:N`  
 **Discovered:** 2026-06-10  
 **Author:** Caio Chagas  
 

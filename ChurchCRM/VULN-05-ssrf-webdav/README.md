@@ -5,7 +5,7 @@
 **CVE:** Pending  
 **CWE:** CWE-918 — Server-Side Request Forgery (SSRF)  
 **Severity:** Medium  
-**CVSS 4.0:** 5.7 — `CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:L/VI:N/VA:N/SC:H/SI:N/SA:N`  
+**CVSS 4.0:** 6.1 — `CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:L/VI:N/VA:N/SC:H/SI:N/SA:N`  
 **Discovered:** 2026-06-10  
 **Author:** Caio Chagas  
 

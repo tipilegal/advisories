@@ -4,8 +4,8 @@
 **Version:** 7.3.3 (earlier versions likely affected)  
 **CVE:** Pending  
 **CWE:** CWE-200 — Exposure of Sensitive Information to an Unauthorized Actor  
-**Severity:** Medium  
-**CVSS 4.0:** 6.9 — `CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N`  
+**Severity:** High  
+**CVSS 4.0:** 7.1 — `CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N`  
 **Discovered:** 2026-06-10  
 **Author:** Caio Chagas  
 

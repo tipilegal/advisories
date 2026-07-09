@@ -5,7 +5,7 @@
 **CVE:** Pending  
 **CWE:** CWE-338 — Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG)  
 **Severity:** High  
-**CVSS 4.0:** 7.3 — `CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:P/VC:H/VI:H/VA:N/SC:H/SI:H/SA:N`  
+**CVSS 4.0:** 8.8 — `CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:P/VC:H/VI:H/VA:N/SC:H/SI:H/SA:N`  
 **Discovered:** 2026-06-10  
 **Author:** Caio Chagas  
 

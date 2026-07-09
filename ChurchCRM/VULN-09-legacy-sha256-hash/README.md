@@ -5,7 +5,7 @@
 **CVE:** Pending  
 **CWE:** CWE-916 — Use of Password Hash With Insufficient Computational Effort  
 **Severity:** High  
-**CVSS 4.0:** 7.5 — `CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:H/VI:H/VA:N/SC:H/SI:H/SA:N`  
+**CVSS 4.0:** 8.8 — `CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:H/VI:H/VA:N/SC:H/SI:H/SA:N`  
 **Discovered:** 2026-06-10  
 **Author:** Caio Chagas  
 
